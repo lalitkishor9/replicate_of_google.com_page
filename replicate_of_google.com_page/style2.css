@@ -1,0 +1,103 @@
+body {
+  box-sizing: border-box;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* nav design */
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav button {
+  margin-top: 3px;
+  border-radius: 5px;
+  border: 2px solid #4285f4;
+  height: 38px;
+  color: white;
+  background-color: #4285f4;
+}
+/* google */
+div.google {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+/* search bar */
+.center-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-block img {
+  margin-top: 6px;
+  width: 35px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+input {
+  width: 100%;
+  height: 70%;
+}
+input:focus {
+  outline: none;
+}
+.searchBar {
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 0 solid white;
+  width: 400px;
+}
+.center-block span {
+  height: 55px;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+/* below search bar */
+.butt {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.butt button {
+  font-size: 0.4cm;
+  margin: 20px;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px solid lightgray;
+  background-color: rgba(211, 211, 211, 0.273);
+  color: black;
+}
+.butt button:hover {
+  border: 2px solid rgba(17, 16, 16, 0.163);
+}
+
+.lang {
+  word-wrap: none;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: center;
+}
+.l {
+  text-align: center;
+  margin: 8px;
+}
